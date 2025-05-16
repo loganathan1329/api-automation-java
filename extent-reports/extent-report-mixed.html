@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Extent Reports - Mixed Results</title>
+    <style>/* same style as before */</style>
+</head>
+<body>
+<header>Extent Reports - Mixed Results</header>
+<div class="summary">
+    <div class="pass">✔ PASS: 3</div>
+    <div class="fail">✖ FAIL: 1</div>
+    <div class="skip">➖ SKIP: 1</div>
+    <div>🕒 Run Date: 2025-05-16 18:10:23</div>
+</div>
+<table>
+    <thead>
+    <tr><th>Status</th><th>Test Name</th><th>Time</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+        <tr class="pass"><td>PASS</td><td>Create User</td><td>18:10:24</td><td>User created successfully</td></tr>
+        <tr class="fail"><td>FAIL</td><td>Update Invalid User</td><td>18:10:26</td><td>Got 404 instead of 200</td></tr>
+        <tr class="skip"><td>SKIP</td><td>Delete User</td><td>18:10:28</td><td>Token missing</td></tr>
+        <tr class="pass"><td>PASS</td><td>Get User</td><td>18:10:30</td><td>User retrieved</td></tr>
+        <tr class="pass"><td>PASS</td><td>List Users</td><td>18:10:32</td><td>List successful</td></tr>
+    </tbody>
+</table>
+</body>
+</html>
