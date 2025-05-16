@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Extent Reports - All Failures</title>
+    <style>/* same style as before */</style>
+</head>
+<body>
+<header>Extent Reports - All Failures</header>
+<div class="summary">
+    <div class="pass">✔ PASS: 0</div>
+    <div class="fail">✖ FAIL: 5</div>
+    <div class="skip">➖ SKIP: 0</div>
+    <div>🕒 Run Date: 2025-05-16 18:15:45</div>
+</div>
+<table>
+    <thead>
+    <tr><th>Status</th><th>Test Name</th><th>Time</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+        <tr class="fail"><td>FAIL</td><td>Create User</td><td>18:15:46</td><td>500 Internal Server Error</td></tr>
+        <tr class="fail"><td>FAIL</td><td>Get User</td><td>18:15:48</td><td>User not found</td></tr>
+        <tr class="fail"><td>FAIL</td><td>Update User</td><td>18:15:50</td><td>400 Bad Request</td></tr>
+        <tr class="fail"><td>FAIL</td><td>Delete User</td><td>18:15:52</td><td>401 Unauthorized</td></tr>
+        <tr class="fail"><td>FAIL</td><td>List Users</td><td>18:15:54</td><td>Service timeout</td></tr>
+    </tbody>
+</table>
+</body>
+</html>
