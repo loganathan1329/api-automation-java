@@ -1,5 +1,3 @@
-Sure! Here’s a detailed, well-structured, and nicely formatted `README.md` for your Java API automation framework using RestAssured, TestNG, Cucumber, and Extent Reports:
-
 ---
 
 # API Automation Framework
