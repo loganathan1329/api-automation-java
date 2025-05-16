@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Scenario 1 - Edge Case Testing</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        header { font-size: 24px; font-weight: bold; margin-bottom: 20px; }
+        .summary { margin-bottom: 20px; }
+        .summary div { display: inline-block; margin-right: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #eee; }
+        .pass { color: green; }
+        .fail { color: red; }
+        .skip { color: orange; }
+    </style>
+</head>
+<body>
+<header>Scenario 1 - Edge Case Testing</header>
+<div class="summary">
+    <div class="pass">✔ PASS: 2</div>
+    <div class="fail">✖ FAIL: 1</div>
+    <div class="skip">➖ SKIP: 2</div>
+    <div>🕒 Run Date: 2025-05-16 08:54:10</div>
+</div>
+<table>
+    <thead>
+    <tr><th>Status</th><th>Test Name</th><th>Time</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+        <tr class="pass"><td>PASS</td><td>Test Edge Limit</td><td>08:54:11</td><td>Edge value accepted</td></tr>
+<tr class="fail"><td>FAIL</td><td>Test Edge Overflow</td><td>08:54:12</td><td>500 Server Error</td></tr>
+<tr class="skip"><td>SKIP</td><td>Test Optional Param</td><td>08:54:13</td><td>Pre-condition failed</td></tr>
+<tr class="pass"><td>PASS</td><td>Boundary Value Check</td><td>08:54:14</td><td>Handled correctly</td></tr>
+<tr class="skip"><td>SKIP</td><td>Token Expiry</td><td>08:54:15</td><td>Token not available</td></tr>
+    </tbody>
+</table>
+</body>
+</html>

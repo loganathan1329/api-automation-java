@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Scenario 3 - Security Tests</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        header { font-size: 24px; font-weight: bold; margin-bottom: 20px; }
+        .summary { margin-bottom: 20px; }
+        .summary div { display: inline-block; margin-right: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #eee; }
+        .pass { color: green; }
+        .fail { color: red; }
+        .skip { color: orange; }
+    </style>
+</head>
+<body>
+<header>Scenario 3 - Security Tests</header>
+<div class="summary">
+    <div class="pass">✔ PASS: 1</div>
+    <div class="fail">✖ FAIL: 3</div>
+    <div class="skip">➖ SKIP: 1</div>
+    <div>🕒 Run Date: 2025-05-16 08:54:10</div>
+</div>
+<table>
+    <thead>
+    <tr><th>Status</th><th>Test Name</th><th>Time</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+        <tr class="fail"><td>FAIL</td><td>SQL Injection</td><td>08:54:11</td><td>Vulnerable parameter</td></tr>
+<tr class="pass"><td>PASS</td><td>XSS Attack</td><td>08:54:12</td><td>Sanitized successfully</td></tr>
+<tr class="fail"><td>FAIL</td><td>CSRF Token</td><td>08:54:13</td><td>Missing token in request</td></tr>
+<tr class="fail"><td>FAIL</td><td>Auth Bypass</td><td>08:54:14</td><td>Unauthorized access allowed</td></tr>
+<tr class="skip"><td>SKIP</td><td>Session Fixation</td><td>08:54:15</td><td>Not applicable</td></tr>
+    </tbody>
+</table>
+</body>
+</html>
