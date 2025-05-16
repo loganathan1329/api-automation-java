@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Scenario 7 - Book Store API Testing</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        header { font-size: 24px; font-weight: bold; margin-bottom: 20px; }
+        .summary { margin-bottom: 20px; }
+        .summary div { display: inline-block; margin-right: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #eee; }
+        .pass { color: green; }
+        .fail { color: red; }
+        .skip { color: orange; }
+    </style>
+</head>
+<body>
+<header>Scenario 7 - Book Store API Testing</header>
+<div class="summary">
+    <div class="pass">✔ PASS: 4</div>
+    <div class="fail">✖ FAIL: 1</div>
+    <div class="skip">➖ SKIP: 0</div>
+    <div>🕒 Run Date: 2025-05-16 08:56:58</div>
+</div>
+<table>
+    <thead>
+    <tr><th>Status</th><th>Test Name</th><th>Time</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+        <tr class="pass"><td>PASS</td><td>Get All Books</td><td>08:54:11</td><td>Fetched 10 books</td></tr>
+<tr class="pass"><td>PASS</td><td>Add New Book</td><td>08:54:12</td><td>Book added successfully</td></tr>
+<tr class="fail"><td>FAIL</td><td>Update Book - Invalid ID</td><td>08:54:13</td><td>Book ID not found</td></tr>
+<tr class="pass"><td>PASS</td><td>Delete Book</td><td>08:54:14</td><td>Book deleted successfully</td></tr>
+<tr class="pass"><td>PASS</td><td>Search Book by Title</td><td>08:54:15</td><td>Book found with title 'Test Automation'</td></tr>
+    </tbody>
+</table>
+</body>
+</html>
