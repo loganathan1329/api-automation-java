@@ -58,6 +58,7 @@ This project implements a comprehensive API automation framework designed to val
 ├── config.properties                        # API endpoint and env configuration
 ├── pom.xml                                 # Maven dependencies and build config
 ├── testng.xml                              # TestNG suite config
+├── extent reports                          # Advanced test reporting and logging
 ├── Jenkinsfile                             # CI/CD pipeline script
 ├── .gitignore                              # Git ignore rules
 └── README.md                               # Project documentation
