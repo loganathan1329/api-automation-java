@@ -46,16 +46,16 @@ This project implements a comprehensive API automation framework designed to val
 ├── src
 │   ├── main
 │   │   └── java/com/company/api/           # Main application code
-│   │       ├── config/                      # Configuration manager
-│   │       ├── models/                      # POJOs for API payloads
-│   │       └── listeners/                   # TestNG listeners for reporting
+│   │       ├── config/                     # Configuration manager
+│   │       ├── models/                     # POJOs for API payloads
+│   │       └── listeners/                  # TestNG listeners for reporting
 │   └── test
-│       ├── java/com/company/api/            # Test implementation
-│       │   ├── runners/                      # Cucumber test runner
-│       │   ├── stepdefinitions/             # Step definitions for Cucumber
-│       │   └── tests/                        # TestNG test classes
-│       └── resources/features/               # Gherkin feature files
-├── config.properties                        # API endpoint and env configuration
+│       ├── java/com/company/api/           # Test implementation
+│       │   ├── runners/                    # Cucumber test runner
+│       │   ├── stepdefinitions/            # Step definitions for Cucumber
+│       │   └── tests/                      # TestNG test classes
+│       └── resources/features/             # Gherkin feature files
+├── config.properties                       # API endpoint and env configuration
 ├── pom.xml                                 # Maven dependencies and build config
 ├── testng.xml                              # TestNG suite config
 ├── extent reports                          # Advanced test reporting and logging
